@@ -1,0 +1,210 @@
+body {
+    text-align: center;
+    background-color: #8a8c7d;
+    color: #C3DAC3;
+
+}
+
+p {
+    padding: 15px;
+    padding-top: 5px;
+    font-size: medium;
+}
+
+h2 {
+    padding-top: 5px;
+}
+
+h4 {
+    padding: 15px;
+    padding-top: 5px;
+    text-decoration: underline;
+}
+
+header {
+    text-align: center;
+    text-decoration: underline;
+}
+.intro{
+    background-color: #72665a;
+    padding: 5px;
+    border-radius: 25px;
+    border-color: #A1B0AB;
+}
+
+footer {
+    position: relative;
+    bottom: -150px;
+    padding: 5px;
+    text-decoration: overline;
+    background-color: #72665a;
+    border-radius: 25px;
+    border-color: #A1B0AB;
+}
+.location1 {
+    background-color: #72665a;
+    border-radius: 25px;
+    border-color: #A1B0AB;
+    box-shadow: 10px 10px 40px;
+}
+
+.location2 {
+    background-color: #72665a;
+    border-radius: 25px;
+    border-color: #A1B0AB;
+    box-shadow: 10px 10px 40px;
+
+}
+
+.location3 {
+    background-color: #72665a;
+    border-radius: 25px;
+    border-color: #A1B0AB;
+    box-shadow: 10px 10px 40px;
+
+}
+
+.pikeplacemarket {
+    display: none;
+    width: 100%;
+
+}
+
+.mountrainier {
+    display: none;
+    width: 100%;
+
+}
+
+.spaceneedle {
+    display: none;
+    width: 100%;
+
+}
+
+
+
+
+@media screen and (min-width:500px) {
+    p {
+        font-size: 112.5%;
+    }
+
+    h2 {
+        font-size: 112.5%;
+    }
+
+    h4 {
+        font-size: 112.5%;
+    }
+    .location1 {
+        float: none;
+    }
+
+    .location2 {
+        float: none;
+    }
+
+    .location3 {
+        float: none;
+    }
+
+    .pikeplacemarket {
+        display: block;
+    }
+
+    .mountrainier {
+        display: block;
+    }
+
+    .spaceneedle {
+        display: block;
+    }
+
+
+}
+
+@media screen and (min-width:770px) {
+    p {
+        font-size: 125%;
+    }
+
+    h2 {
+        font-size: 125%;
+    }
+
+    h4 {
+        font-size: 125%;
+    }
+    .pikeplacemarket {
+        border-radius: 25px;
+    }
+
+    .mountrainier {
+        border-radius: 25px;
+    }
+
+    .spaceneedle {
+        border-radius: 25px;
+    }
+
+}
+
+@media screen and (min-width:1080px) {
+    p {
+        font-size: 175%;
+    }
+    h2 {
+        font-size: 175%;
+    }
+
+    h4 {
+        font-size: 175%;
+    }
+    .location1 {
+        clear: both;
+        width: 100%;
+        border-color: #C3DAC3;
+    }
+
+    .pikeplacemarket {
+        float: left;
+        width: 50%;
+        clear: both;
+        padding: 15px;
+
+
+    }
+
+    .location2 {
+        clear: both;
+        width: 100%;
+        border-color: #C3DAC3;
+
+    }
+
+    .mountrainier {
+        float: right;
+        width: 50%;
+        clear: both;
+        padding: 15px;
+
+
+    }
+
+    .location3 {
+        clear: both;
+        width: 100%;
+        border-color: #C3DAC3;
+
+    }
+
+    .spaceneedle {
+        float: left;
+        width: 50%;
+        clear: both;
+        padding: 15px;
+
+    }
+
+}
